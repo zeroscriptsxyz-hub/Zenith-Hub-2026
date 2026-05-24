@@ -14,10 +14,10 @@ local VirtualInputManager = cloneref(game:GetService("VirtualInputManager"))
 
 --// Window \\--
 local Window = Rayfield:CreateWindow({
-    Name = "Wraith | Basketball Stars 3",
-    LoadingTitle = "Wraith",
-    LoadingSubtitle = "By stacktrace45",
-    Theme = "Default",
+    Name = "Zenith Hub|2026",
+    LoadingTitle = "Zenith",
+    LoadingSubtitle = "By @cakisbetter",
+    Theme = "AmberGlow",
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = true,
 })
@@ -897,7 +897,7 @@ end
 InfoTab:CreateSection("System Info")
 InfoTab:CreateLabel("Device: "   .. (UserInputService.TouchEnabled and "Mobile" or "PC"))
 InfoTab:CreateLabel("Executor: " .. (identifyexecutor and identifyexecutor() or "Unknown"))
-InfoTab:CreateLabel("Script by stacktrace45 | discord.gg/NxbdayKh")
+InfoTab:CreateLabel("Script by @cakisbetter")
 
 -- ==========================================
 --             UI SETTINGS TAB
@@ -913,8 +913,8 @@ UISettingsTab:CreateButton({
 --               NOTIFY
 -- ==========================================
 Rayfield:Notify({
-    Title   = "Wraith Loaded",
-    Content = "Basketball Stars 3 | By stacktrace45",
+    Title   = "Zenith Loaded",
+    Content = "Basketball Stars 3 | By @cakisbetter",
     Duration = 10,
     Image   = 4483362458,
 })
